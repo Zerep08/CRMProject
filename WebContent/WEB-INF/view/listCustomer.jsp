@@ -5,11 +5,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Welcome</title>
 
-<link type="text/css"
-	  rel="stylesheet"
-	  href="${pageContext.request.contextPath}/resources/css/style.css">
+<link type="text/css" rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/style.css">
 
 
 </head>
@@ -23,6 +22,10 @@
 	</div>
 
 	<div id="container">
+
+		<input type="button" value="Add customer"
+			onclick="window.location.href='showFormAdd'; return false;"
+			class="add-button">
 
 		<table>
 
